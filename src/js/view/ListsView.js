@@ -65,7 +65,7 @@ export const clearLikesList = () => {
 
 export const toggleLikeBtn = isLiked => {
     const btnState = isLiked ? '' : '-outlined'
-    document.querySelector('.recipe__love use').setAttribute('href', `img/icons.svg#icon-heart${btnState}`)
+    document.querySelector('.recipe__love use').setAttribute('href', `dist/img/icons.svg#icon-heart${btnState}`)
 }
 
 export const toggleLikesIcon = numOfLikes => {
